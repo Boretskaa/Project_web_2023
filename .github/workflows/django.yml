@@ -22,5 +22,5 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r e-commerce-website-master/requirements.txt
     - name: Run Tests
-      run: |
-        python manage.py test
+      run: | 
+        python e-commerce-website-master/manage.py test
